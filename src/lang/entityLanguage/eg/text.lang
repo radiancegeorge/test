@@ -23,3 +23,8 @@ entity Media
     media_link : String
     key(id)
 end
+
+entity Gen
+    id: Integer
+    name: String
+end
