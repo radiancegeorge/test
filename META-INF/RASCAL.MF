@@ -1,0 +1,6 @@
+Manifest-Version: 0.0.1
+Project-Name: test
+Source: src
+Require-Libraries: |lib://typepal/|, |lib://rascal-lsp/|
+Main-Function: main 
+Main-Module: Main
