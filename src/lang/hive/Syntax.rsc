@@ -15,6 +15,7 @@ syntax OptionalExist
 
 syntax ColumnDefinition 
     = column: Id DataType
+    | empty: 
     ;
 
 syntax DataType 

@@ -1,8 +1,12 @@
 module Main
 
-import IO;
+// import IO;
+import lang::hive::TM;
+import lang::hive::TS;
 
-int main(int testArgument=0) {
-    println("argument: <testArgument>");
-    return testArgument;
+str main() {
+
+    model = lang::hive::TM::main();
+    src = lang::hive::TS::main(model);
+    return src;
 }

@@ -12,12 +12,12 @@ data CreateTableStatement
 
 data ColumnDefinition
     = column(str name, DataType dataType)
+    | empty()
     ;
 
 data DataType
     = stringType()
     | intType()
-    | floatType()
     ;
 
 data StorageOption

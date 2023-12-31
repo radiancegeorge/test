@@ -23,4 +23,3 @@ entity Media
     media_link : String
     key(id)
 end
-

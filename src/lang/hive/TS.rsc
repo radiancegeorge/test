@@ -33,8 +33,12 @@ public str toHive(parquet()){
     return "PARQUET";
 }
 
-public str main (){
-    ast = lang::hive::Parse::Adt::main();
-    src = toHive(ast);
+public str toHive(empty()){
+    return "";
+}
+
+public str main (CreateTableProgram x ){
+    // x= lang::hive::Parse::Adt::main()
+    src = toHive(x);
     return src;
 }
